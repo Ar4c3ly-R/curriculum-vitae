@@ -1,0 +1,141 @@
+body{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+section{
+    grid-column: 2 / 3;
+}
+section{
+    display: grid;
+    grid-template-columns: 25% 30% 45%;
+    grid-template-rows: 25% 45% 30%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 255, 255);
+}
+.acercaDeMi{
+    grid-column-start: 1;
+    grid-row: 1/span 3;
+    align-content: center;
+    height: 900px ;
+    background-color:rgb(134, 131, 131);
+}
+.acercaDeMi{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 45% 30%;
+    justify-content: center;
+    align-content:flex-start;
+
+}
+.usuar{
+    grid-row-start: 1;
+   
+}
+#usuario{
+    width: 100px;
+    padding:55px 40px 40px 65px;
+}
+.Notas{
+    background-color:rgb(205, 238, 249);
+    grid-row: 2;
+    font-size: 14px;
+    text-align: justify;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-columns: 10% 80% 10%;
+}
+#acerca{
+    grid-column: 1/ span 3;
+    padding-left: 60px;
+}
+#parrafo{
+    grid-column: 2;
+}
+.RedesSoc{
+    background-color:rgb(205, 238, 249);
+    font-size: 14px;
+ grid-row: 3;
+ height: 400px;
+ display: grid;
+ justify-content: center;
+ grid-template-rows: 10% 30% 30% 30% ;
+}
+#link{
+    height: 35px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+#face{
+    height: 40px;
+    padding-bottom: 10px;
+}
+#inst{
+    height: 40px;
+
+}
+#textoRedes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoBasic{
+    grid-column: 2/span 3;
+    grid-row: 1;
+    background-color:rgb(205, 238, 249);
+    font-size: 14px;
+}
+.infoBasic{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items:center;
+
+}
+.Titulos{
+    padding-left: 20px;
+}
+.DatosPersonales{
+
+}
+#mail{
+    height:20px ;
+}
+#cel{
+    height:20px ;
+}
+#map{
+    height:20px ;
+}
+.Experiencia{
+    grid-column: 2/ span 3;
+    grid-row: 2;
+    font-size: 14px;
+
+}
+.Experiencia{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.experienciaLab{
+    grid-column: 1;
+    align-content: space-between;
+}
+#Exp{
+    padding-left: 20px;
+}
+.Descripcion{
+    grid-column: 2;
+}
+.Educacion{
+    font-size: 14px;
+    grid-column: 2/ span 3;
+    grid-row: 3;
+}
+.Educacion{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#TituloEdu{
+    padding-left: 20px;
+    font-size: 18px;
+}
